@@ -1,13 +1,358 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login with Github account</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" href="./images/profile.png" type="image/x-icon" />
+  <link rel="icon" href="./images/profile.png" type="image/x-icon" />
+  <title>Ashish Pal | Fullstack Web Developer</title>
+  <meta name="description"
+    content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product" />
+  <meta name="author" content="Ram Maheshwari" />
+  <meta name="google-site-verification" content="wX2xdkxqjrC4rA2EM-9bbaVpiEEFG8ae5azgeZDd-oo" />
+
+  <meta property="og:title" content="Ram Maheshwari | RammCodes | Frontend Web Developer" />
+  <meta property="og:site_name" content="Ram Maheshwari Portfolio Website" />
+  <meta property="og:url" content="https://www.rammaheshwari.com/" />
+  <meta property="og:description"
+    content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://i.ibb.co/C8Wnkrt/pretty-snap-2022-3-29-16-11.png" />
+
+  <link href='index.css' rel='stylesheet'/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QD9ESD1D9K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
+
+    gtag('config', 'G-QD9ESD1D9K')
+  </script>
 </head>
+
 <body>
-    <a href="https://github.com/login/oauth/authorize?client_id=20adfe940d033f81963b"><button>Continue with Github</button></a>
+  <header id="nav-menu" class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./images/profile.png" alt="Ashish Pal Logo Image" class="header__logo-img home-img"/>
+        </div>
+        <span id="user-detail-name" class="header__logo-sub">Ashish Pal</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#skillset" class="header__link"> Skills </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#projects" class="header__link"> Projects </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="https://d33wubrfki0l68.cloudfront.net/79e75114856ae61628d2ad26504e3ff4ab2c71b6/f06a4/assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="https://d33wubrfki0l68.cloudfront.net/de2a681c8ca1630b29949b3a34bf158a686a0554/6a0ec/assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#skillset"> Skills </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section id="home" class="home-hero nav-link home">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Hey, I'm Ashish Pal</h1>
+      <div class="home-hero__info">
+        <p id="user-detail-intro" class="text-primary">
+          A focused Fullstack Web Developer building the Backend of Websites
+          and Web Applications that leads to the success of the overall
+          product
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">Projects</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://linkedin.com/in/web-developer-ashish-pal" class="home-hero__social-icon-link" rel="noreferrer"
+          target="_blank">
+          <img src="https://d33wubrfki0l68.cloudfront.net/d8e6e1e636531e28274a1b8b6d947b817f6145bd/d42d3/assets/svg/linkedin-dark.svg" alt="Ashish Pal Linkedin Profile"
+            class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://twitter.com/ashishpal1717" class="home-hero__social-icon-link" rel="noreferrer" target="_blank">
+          <img src="https://d33wubrfki0l68.cloudfront.net/ba3ef9fd9d500c55ba265adae6087ba71e05f5d9/d0067/assets/svg/twitter-dark.svg" alt="RammCodes Twitter Profile" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://github.com/Ashish-Pal-Dev" class="home-hero__social-icon-link" rel="noreferrer" target="_blank">
+          <img src="https://d33wubrfki0l68.cloudfront.net/38469cf88d038b6ba3322c9fcb93a8f7167df4b9/cb0b9/assets/svg/github-dark.svg" alt="RammCodes Github Profile" class="home-hero__social-icon" />
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about nav-link sec-pad section">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          Here you will find more information about me, what I do, and my
+          current skills mostly in terms of programming and technology
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Get to know me!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              I'm a <strong>Frontend Web Developer</strong> building the
+              Front-end of Websites and Web Applications that leads to the
+              success of the overall product. Check out some of my work in the
+              <strong>Projects</strong> section.
+            </p>
+            <p class="about__content-details-para">
+              I also like sharing content related to the stuff that I have
+              learned over the years in <strong>Web Development</strong> so it
+              can help other people of the Dev Community. Feel free to Connect
+              or Follow me on my
+              <a rel="noreferrer" href="https://linkedin.com/in/web-developer-ashish-pal" target="_blank">Linkedin</a>
+              where I post useful content related to Web Development and
+              Programming
+            </p>
+            <p class="about__content-details-para">
+              I'm open to <strong>Job</strong> opportunities where I can
+              contribute, learn and grow. If you have a good opportunity that
+              matches my skills and experience then don't hesitate to
+              <strong>contact</strong> me.
+            </p>
+          </div>
+          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+        </div>
+        <div id="skillset" class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+          <div id="skills" class="skills nav-link">
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/html.png" alt="html"></div>
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/css.png" alt="css"></div>
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/js.png" alt="javascript"></div>
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/postman.png" alt="postman"></div>
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/nodejs.png" alt="node"></div>
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/expressjs.png" alt="express"></div>
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/mongodb.png" alt="mongo"></div>
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/npm.png" alt="html"></div>
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/redis.png" alt="html"></div>
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/git.png" alt="html"></div>
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/github.png" alt="html"></div>
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/aws.png" alt="html"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="projects nav-link sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+          Here you will find some of my projects that I
+          created with each project containing its own case study
+        </span>
+      </h2>
+
+      <div class="projects__content">
+        <div class="projects__row project-card">
+          <div class="projects__row-img-cont">
+            <img src="./images/wondermall.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title project-title">Wondermall</h3>
+            <p class="projects__row-content-desc project-description">
+              Wondermall is an E-commerce website where users can purchase products across various categories. It was my first 
+              project that I made using HTML, CSS and JavaScript only. I added Search, Sort & Filter functionalities using JavaScript
+              and used JSON data for Products. It was an individual project built and executed in 5 days. 
+            </p>
+            <div class="btndiv">
+              <a class='btn btn--med btn--theme dynamicBgClr project-deployed-link' href='https://darling-faloodeh-ce5373.netlify.app/' target='_blank'>See Live</a>
+              <a class='btn btn--med btn--theme dynamicBgClr project-github-link' href='https://github.com/Ashish-Pal-Dev/safe-sponge-7950' target='_blank'>Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="projects__row project-card">
+          <div class="projects__row-img-cont">
+            <img src="./images/medhub.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title project-title">Medhub</h3>
+            <p class="projects__row-content-desc project-description">
+              Medhub is an E-commerce website where users can buy Healthcare products across various categories. 
+              This is a group project made by four peoples.
+              I made the Admin panel for adding, updating and deleting the produts. Login/Signup also done by me.
+              It was built and executed in 5 days.
+            </p>
+            <div class="btndiv"><a class='btn btn--med btn--theme dynamicBgClr project-deployed-link' href='https://poetic-khapse-f30098.netlify.app/' target='_blank'>See Live</a>
+                 <a class='btn btn--med btn--theme dynamicBgClr project-github-link' href='https://github.com/Ashish-Pal-Dev/lame-hammer-872' target='_blank'>Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="projects__row project-card">
+          <div class="projects__row-img-cont">
+            <img src="./images/royale.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title project-title">Royale's Market</h3>
+            <p class="projects__row-content-desc project-description">
+              Royale's Market is an Fashion E-commerce website where users can buy items across various categories. 
+              Users can register first and then they can buy any item. This was an individual project and built in a span of 5 days.
+            </p>
+            <div class="btndiv">
+              <a class='btn btn--med btn--theme dynamicBgClr project-deployed-link' href='https://preeminent-nasturtium-717ed5.netlify.app/' target='_blank'>See Live</a>
+              <a class='btn btn--med btn--theme dynamicBgClr project-github-link' href='https://github.com/Ashish-Pal-Dev/succinct-wrench-1095' target='_blank'>Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="projects__row project-card">
+          <div class="projects__row-img-cont">
+            <img src="./images/medhub.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title project-title">Medhub</h3>
+            <p class="projects__row-content-desc project-description">
+                Medhub is an E-commerce website where users can buy Healthcare products across various categories. 
+                This is a group project made by four peoples.
+                I made the Admin panel for adding, updating and deleting the produts. Login/Signup also done by me.
+                It was built and executed in 5 days.
+            </p>
+            <div class="btndiv">
+              <a class='btn btn--med btn--theme dynamicBgClr project-deployed-link' href='https://poetic-khapse-f30098.netlify.app/' target='_blank'>See Live</a>
+              <a class='btn btn--med btn--theme dynamicBgClr project-github-link' href='https://github.com/Ashish-Pal-Dev/lame-hammer-872' target='_blank'>Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact nav-link sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          Feel free to Contact me by submitting the form below and I will get
+          back to you as soon as possible
+        </span>
+      </h2>
+      <div class="contact__form-container">
+        <form action='#' class='contact__form' method='post'><input type='hidden' name='form-name' value='form 1' />
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Name</label>
+            <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name"
+              id="uname" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email</label>
+            <input required placeholder="Enter Your Email" type="email" class="contact__form-input" name="email"
+              id="email" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Message</label>
+            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message"
+              name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn btn--theme contact__btn">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a id="contact-linkedin" target="_blank" rel="noreferrer" href="https://linkedin.com/in/web-developer-ashish-pal">
+              <img class="main-footer__icon" src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+                alt="Ram Maheshwari Linkedin Profile" />
+            </a>
+            <a id="contact-github" target="_blank" rel="noreferrer" href="https://github.com/Ashish-Pal-Dev">
+              <img class="main-footer__icon" src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png" alt="Ashish Pal Github Profile" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/ashishpal1717">
+              <img class="main-footer__icon" src="https://d33wubrfki0l68.cloudfront.net/ef67339f7016cb09ba66366c1dc9145ac69f2a21/feca1/assets/png/twitter-ico.png" alt="Ashish Pal Twitter Profile" />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h2 class="heading heading-sm text-lt">Ashish Pal</h2>
+          <p class="main-footer__short-desc">
+            A focused Fullstack Web Developer building the Backend of Websites and Web Applications that leads to the success of the overall product
+          </p>
+        </div>
+      </div>
+
+      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+      <div class="main-footer__lower">
+        &copy; Copyright
+        <script>document.write(new Date().getFullYear())</script>. Made by
+        <a rel="noreferrer" target="_blank" href="https://ashish-pal-dev.github.io/">Ashish Pal</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src='./scripts/index.js'></script>
+  <script src="//code.tidio.co/hkirvl5pqs5cjjawh11xutnzjgtg9tfi.js" async></script>
 </body>
 
 </html>
