@@ -893,3 +893,32 @@ textarea {
     top: 27px;
   }
 }
+
+.github-cal-div>h1{
+  text-align: center;
+  margin:40px auto;
+}
+.github-cal-div>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border:1px solid red; */
+}
+.calendar{
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+    width: 70%;
+    padding: 50px 50px 0 50px;
+}
+.calendar:hover{
+  background-color: black;
+}
+.github-cal-div>div>div{
+  /* border:1px solid red; */
+  margin: 10px auto;
+}
+.github-cal-div>div>div>img{
+  margin: 10px ;
+}
