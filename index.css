@@ -840,12 +840,12 @@ textarea {
     padding: 3.5rem 0;
   }
 }
-.skills {
+.skillCards {
   /* border: 2px solid red; */
   display: flex;
   flex-wrap: wrap;
 }
-.skills div img{
+.skillCards div img{
   height: 70px;
   width: 70px;
 }
