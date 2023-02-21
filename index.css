@@ -928,6 +928,7 @@ textarea {
 }
 
 #resume-button-2{
+  width: 40%;
   background-color: #facf0f;
   font-weight: bold;
   margin-top: 10px;
