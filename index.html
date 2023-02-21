@@ -58,7 +58,7 @@
             <a href="./" class="header__link nav-link home"> Home </a>
           </li>
           <li class="header__link-wrapper">
-            <a href="./#about" class="header__link nav-link about">About </a>
+            <a style="background: white" href="./#about" class="header__link nav-link about">About </a>
           </li>
           <li class="header__link-wrapper">
             <a href="./#skills" class="header__link nav-link skills"> Skills </a>
@@ -67,7 +67,10 @@
             <a href="./#projects" class="header__link nav-link projects"> Projects </a>
           </li>
           <li class="header__link-wrapper">
-            <a href="./#contact" class="header__link nav-link contact"> Contact </a>
+            <a style="background: white" href="./#contact" class="header__link nav-link contact"> Contact </a>
+          </li>
+          <li id="resume-button-1" class="header__link-wrapper">
+            <a href="./Ashish_Pal_Resume.pdf" download="Ashish_Pal_Resume.pdf" target="_blank" id="resume-link-1" class="header__link nav-link resume"> Resume </a>
           </li>
         </ul>
         <div class="header__main-ham-menu-cont">
@@ -288,29 +291,25 @@
   </section>
 <!-- Projects -->
 <div class="github-cal-div react-activity-calendar">
-  <h1>GitHub Calender</h1>
-  <div >
+  <h1><span class="heading-sec__main">Github Stats</span></h1>
+  <!-- <div> -->
       <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-
       <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
-
       <div class="calendar react-activity-calenda">
       Loading the data just for you.
       </div>
-
       <script>
-      GitHubCalendar(".calendar", "Ashish-Pal-Dev");
-      // or enable responsive functionality
+
       GitHubCalendar(".calendar", "Ashish-Pal-Dev", { responsive: true });
       </script>
-      <div>
-          <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=Ashish-Pal-Dev&show_icons=true&theme=merko">
-          
-          <img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Ashish-Pal-Dev&theme=merko&hide_border=false">
+      <div id="st-str">
+        <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=Ashish-Pal-Dev&show_icons=true&theme=merko">  
+        <img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Ashish-Pal-Dev&theme=merko&hide_border=false">
       </div>
-      <div>
-          <img id="github-top-langs"src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashish-Pal-Dev&layout=compact&theme=merko">
+      <div id="mst">
+        <img id="github-top-langs"src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashish-Pal-Dev&layout=compact&theme=merko">
       </div>
+</div>
 <!-- Contact -->
   <section id="contact" class="sec-pad dynamicBg">
     <div class="main-container">
@@ -367,18 +366,16 @@
               <img class="main-footer__icon" src="https://d33wubrfki0l68.cloudfront.net/ef67339f7016cb09ba66366c1dc9145ac69f2a21/feca1/assets/png/twitter-ico.png" alt="Ashish Pal Twitter Profile" />
             </a>
           </div>
-          <h1 id="contact-phone">Mob: +91 8750716974</h1>
-          <h1 id="contact-email">Email: ashishpal1717@gmail.com</h1>
         </div>
         <div class="main-footer__row main-footer__row-2">
           <h2 class="heading heading-sm text-lt">Ashish Pal</h2>
-          <p class="main-footer__short-desc">
-            A focused Fullstack Web Developer building the Backend of Websites and Web Applications that leads to the success of the overall product
-          </p>
+          <h1 id="contact-phone">Mob: +91 8750716974</h1>
+          <h1 id="contact-email">Email: ashishpal1717@gmail.com</h1>
+          <button id="resume-button-2"><a href="./Ashish_Pal_Resume.pdf" download="Ashish_Pal_Resume.pdf" target="_blank" id="resume-link-2" >Download Resume</a></button>
         </div>
       </div>
 
-      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+
       <div class="main-footer__lower">
         &copy; Copyright
         <script>document.write(new Date().getFullYear())</script>. Made by
@@ -388,7 +385,7 @@
   </footer>
 <!-- Footer -->
   <script src='./scripts/index.js'></script>
-  <script src="//code.tidio.co/hkirvl5pqs5cjjawh11xutnzjgtg9tfi.js" async></script>
+  <!-- <script src="//code.tidio.co/hkirvl5pqs5cjjawh11xutnzjgtg9tfi.js" async></script> -->
 </body>
 
 </html>
