@@ -38,8 +38,8 @@ headerLogoConatiner.addEventListener('click', () => {
 
 
 // Github calender responsiveness
-GitHubCalendar(".calendar", "Ashish-Pal-Dev");
-GitHubCalendar(".calendar", "Ashish-Pal-Dev", { responsive: true });
+GitHubCalendar(".calendar", "anonymous10062002");
+GitHubCalendar(".calendar", "anonymous10062002", { responsive: true });
 
 
 // Download and open resume in new tab
