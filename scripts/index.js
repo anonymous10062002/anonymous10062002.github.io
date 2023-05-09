@@ -38,7 +38,7 @@ headerLogoConatiner.addEventListener('click', () => {
 
 
 // Github calender responsiveness
-GitHubCalendar(".calendar", "anonymous10062002");
+
 GitHubCalendar(".calendar", "anonymous10062002", { responsive: true });
 
 

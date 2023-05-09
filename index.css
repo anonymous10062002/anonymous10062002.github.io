@@ -142,7 +142,7 @@ textarea {
   letter-spacing: 1px;
 }
 .main-container {
-  max-width: 120rem;
+  max-width: 135rem;
   margin: auto;
   width: 92%;
 }
@@ -927,12 +927,6 @@ textarea {
   max-width: 100%;
 }
 
-/* #resume-button-2{
-  width: 40%;
-  background-color: #facf0f;
-  font-weight: bold;
-  margin-top: 10px;
-  border-radius: 5px;
-  font-size: medium;
-  padding: 10px 25px 10px 25px;
-} */
+#resume-button-2{
+  margin-left: 10rem;
+}
