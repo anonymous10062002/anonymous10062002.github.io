@@ -58,7 +58,7 @@
             <a style="background: white" href="./#contact" class="header__link nav-link contact"> Contact </a>
           </li>
           <li id="resume-button-1" class="header__link-wrapper">
-            <a href="./Ashish_Pal_Resume.pdf" download="Ashish_Pal_Resume.pdf" target="_blank" id="resume-link-1" class="header__link nav-link resume"> Resume </a>
+            <a href="Ashish_Pal_Resume.pdf" target="_blank" id="resume-link-1" class="header__link nav-link resume" download> Resume </a>
           </li>
         </ul>
         <div class="header__main-ham-menu-cont">
@@ -165,7 +165,7 @@
             </p>
           </div>
           <a href="./#contact" id="contact_btn" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
-          <span id="resume-button-2"><a class="btn btn--med btn--theme dynamicBgClr" href="./Ashish_Pal_Resume.pdf" download="Ashish_Pal_Resume.pdf" target="_blank" id="resume-link-2">Download Resume</a></span>
+          <span id="resume-button-2"><a class="btn btn--med btn--theme dynamicBgClr" id="resume-link-2" href="Ashish_Pal_Resume.pdf" target="_blank" download>Download Resume</a></span>
 
         </div>
         <!-- Skills Section -->
@@ -217,11 +217,10 @@
             <h3 class="projects__row-content-title project-title">SmileSlot</h3>
             <p class="projects__row-content-desc project-description">
               SmileSlot is an Online dentist appointment booking system for those who want to book an online appointment to the nearest clinic from the comfort of their home. Dentists can also register 
-              as a dentist in order to add their clinic and view their patient's appointments from the Dentist panel. There's is Admin panel also where he can see all the users, he can see all the clinics and delete them. 
-              As a admin he can block any user at any time.
+              as a dentist in order to add their clinic and view their patient's appointments. There's is Admin panel also where he can delete clinics, block users.
             </p>
             <h1>Tech stack</h1>
-            <p class="projects__row-content-desc project-description">HTML | CSS | JavaScript | NodeJs | ExpressJs | MongoDB | Redis | JWT-authentication | Nodemailer | RBAC-authorization</p>
+            <p class="projects__row-content-desc project-description">HTML | CSS | JavaScript | NodeJs | ExpressJs | MongoDB | Redis | JWT | Nodemailer</p>
             <div class="btndiv">
               <a class='btn btn--med btn--theme dynamicBgClr project-deployed-link' href='https://smileslot.netlify.app/' target='_blank'>See Live</a>
               <a class='btn btn--med btn--theme dynamicBgClr project-github-link' href='https://github.com/anonymous10062002/mountainous-behavior-4917' target='_blank'>Github</a>
@@ -276,10 +275,10 @@
             <h3 class="projects__row-content-title project-title">Wondermall</h3>
             <p class="projects__row-content-desc project-description">
                 Wondermall is an E-commerce website where users can buy products across various categories. User can search the 
-                products using search bar, and filter by category also. This was an individual project. It was built and executed in 5 days. 
+                products using search bar, and filter by category also. This was an individual project. It was built and executed in 3 days. 
             </p>
             <h1>Tech stack</h1>
-            <p class="projects__row-content-desc project-description">HTML | CSS | JavaScript | ExpressJs | Git</p>
+            <p class="projects__row-content-desc project-description">HTML | CSS | JavaScript | Git</p>
             <div class="btndiv">
               <a class='btn btn--med btn--theme dynamicBgClr project-deployed-link' href='https://ashishwondermall.netlify.app/' target='_blank'>See Live</a>
               <a class='btn btn--med btn--theme dynamicBgClr project-github-link' href='https://github.com/anonymous10062002/safe-sponge-7950' target='_blank'>Github</a>
@@ -317,7 +316,7 @@
         </span>
       </h2>
       <div class="contact__form-container">
-        <form action='#' class='contact__form' method='post'><input type='hidden' name='form-name' value='form 1' />
+        <form class='contact__form' ><input type='hidden' name='form-name' value='form 1' />
           <div class="contact__form-field">
             <label class="contact__form-label" for="name">Name</label>
             <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name"

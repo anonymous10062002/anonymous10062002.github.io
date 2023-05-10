@@ -44,8 +44,8 @@ GitHubCalendar(".calendar", "anonymous10062002", { responsive: true });
 
 // Download and open resume in new tab
 let resumebtn1=document.getElementById("resume-button-1").addEventListener("click",()=>{
-  window.location.assign("https://drive.google.com/file/d/1SryyNJXkrTdZ7mAKAhwc7muA5p4bxLZ4/view?usp=sharing")
+  window.open("https://drive.google.com/file/d/1SryyNJXkrTdZ7mAKAhwc7muA5p4bxLZ4/view?usp=sharing");
 })
 let resumebtn2=document.getElementById("resume-button-2").addEventListener("click",()=>{
-  window.location.assign("https://drive.google.com/file/d/1SryyNJXkrTdZ7mAKAhwc7muA5p4bxLZ4/view?usp=sharing")
+  window.open("https://drive.google.com/file/d/1SryyNJXkrTdZ7mAKAhwc7muA5p4bxLZ4/view?usp=sharing")
 })
